@@ -1,5 +1,10 @@
 firebase.initializeApp({
-    messagingSenderId: '815554922507'
+    apiKey: "AIzaSyCY2NvECqyvk_OH60hbGUBiYGVV4A9OKpE",
+    authDomain: "messagegate-f664d.firebaseapp.com",
+    projectId: "messagegate-f664d",
+    storageBucket: "messagegate-f664d.appspot.com",
+    messagingSenderId: "815554922507",
+    appId: "1:815554922507:web:f914f365465a227d18df0e"
 });
 
 

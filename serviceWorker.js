@@ -1,8 +1,32 @@
-importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js');
+
+/*
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyCY2NvECqyvk_OH60hbGUBiYGVV4A9OKpE",
+        authDomain: "messagegate-f664d.firebaseapp.com",
+        projectId: "messagegate-f664d",
+        storageBucket: "messagegate-f664d.appspot.com",
+        messagingSenderId: "815554922507",
+        appId: "1:815554922507:web:f914f365465a227d18df0e"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    */
 
 firebase.initializeApp({
-    messagingSenderId: '815554922507'
+    apiKey: "AIzaSyCY2NvECqyvk_OH60hbGUBiYGVV4A9OKpE",
+    authDomain: "messagegate-f664d.firebaseapp.com",
+    projectId: "messagegate-f664d",
+    storageBucket: "messagegate-f664d.appspot.com",
+    messagingSenderId: "815554922507",
+    appId: "1:815554922507:web:f914f365465a227d18df0e"
 });
 
 const messaging = firebase.messaging();
